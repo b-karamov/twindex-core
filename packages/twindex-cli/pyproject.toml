@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "twindex-cli"
+version = "0.1.0a1"
+description = "Terminal UI and command-line frontend for Twindex Core"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{name = "Bulat Karamov"}]
+requires-python = ">=3.12"
+dependencies = [
+  "twindex-core==0.1.0a1",
+  "textual>=0.80,<8",
+  "platformdirs>=4.2,<5",
+  "httpx>=0.27,<1",
+  "httpcore>=1,<2",
+  "pyobjc-framework-Cocoa>=11,<13; sys_platform == 'darwin'",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10", "pytest-asyncio>=1,<2"]
+dev = ["pytest>=8,<10", "pytest-asyncio>=1,<2", "build>=1,<2",
+       "ruff>=0.12,<1", "mypy>=1.15,<3"]
+
+[project.scripts]
+twindex = "twindex_cli.cli:entrypoint"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[project.urls]
+Repository = "https://github.com/b-karamov/twindex-core"
+Issues = "https://github.com/b-karamov/twindex-core/issues"
+
+[tool.uv.sources]
+twindex-core = { workspace = true }

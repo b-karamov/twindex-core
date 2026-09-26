@@ -1,0 +1,237 @@
+{
+  "files": [
+    {
+      "source": "packages/preflight.sh",
+      "sha256": "4c75feb7547d5450b4b4f619212b384ab99fe3d037a9074baf06093d96c36015",
+      "disposition": "verification script replaced"
+    },
+    {
+      "source": "packages/twindex-cli/README.md",
+      "sha256": "2d74e3024397fb89e954815f7618d023ee5acdfba0fddc2e37bcbb3e80460948",
+      "disposition": "Framework-only public description; no API or runtime change"
+    },
+    {
+      "source": "packages/twindex-cli/pyproject.toml",
+      "sha256": "05f021ee3a36fce15bbaa96219f8e8e791af203d2381d6fec2f1df54e76a7e22",
+      "disposition": "metadata updated"
+    },
+    {
+      "source": "packages/twindex-cli/src/twindex_cli/__init__.py",
+      "sha256": "ecd313d663539c8ded41fdb7700319df3c512008b28a1c235ba1b03f5d57f75c",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-cli/src/twindex_cli/__main__.py",
+      "sha256": "4c9e73b94fdfe8d2f74bb3b97cd0d9a4546ec1be586a685892b7c6252dccb55d",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-cli/src/twindex_cli/cli.py",
+      "sha256": "6d6b75d7ef4bfd8d3c3992c744abbfb7481ceebf0165248324d85448f94d4921",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-cli/src/twindex_cli/diagnostics.py",
+      "sha256": "e26b3ee21b8a74afe697f12c7a0364dd39ea9eea5e73045cb57f214a08edef27",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-cli/src/twindex_cli/file_access.py",
+      "sha256": "d65a82840e447dc073eff097767b13b39169e0a276f62bee8ad76e3b9eec4126",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-cli/src/twindex_cli/native_picker.py",
+      "sha256": "4dec99d18fe041f7cddf791af900914d777182e92554ee6b53677e33645dc226",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-cli/src/twindex_cli/tui.py",
+      "sha256": "31324a0beff778fae51634fd230aa0bdf7858c8dc03a9f0a871313235139f926",
+      "disposition": "Textual compatibility: guard header before startup; avoid overriding async App.action_back with sync navigation action"
+    },
+    {
+      "source": "packages/twindex-cli/src/twindex_cli/ui_text.py",
+      "sha256": "1ff064cf09959e933626e3e32077d75cc5b2c545a07adef27172c38128fe25d9",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-cli/tests/test_cli.py",
+      "sha256": "7f494fc24aaa6b651f9e6c6083454e61b648ef4e0cb8bd05a56b44a1ceb71dae",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-cli/tests/test_empty_proposal.py",
+      "sha256": "ea6aa8d67efc2b040438fb01311581df8be691ad5e613bccd06d60a8bf913b97",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-cli/tests/test_file_access.py",
+      "sha256": "c7bcb9fbf3a7e8f0bae2944dc87cd22515e0113f6819dd40efbf063fdba2311d",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-cli/tests/test_navigation.py",
+      "sha256": "9acc0e3f88b6ea0b1efafd4445fdfa7f0a29ca738012990bd12c3958f43c3fdb",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-cli/tests/test_review_flow.py",
+      "sha256": "b0ca444380ad3e4ec6bba7d723a3dd1666a5a7aeefc5c5784169412a1098e9fb",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-cli/tests/test_tui.py",
+      "sha256": "ba776f69aaa2a039264b09dffae9adeb535144cc3a68ed989b16c50da28ba029",
+      "disposition": "Platform-neutral clipboard test: pbcopy is expected only on macOS; Linux uses Textual clipboard"
+    },
+    {
+      "source": "packages/twindex-core/README.md",
+      "sha256": "230dac96df1e771493d02f35e856888150a300cdf578dfcc5d3be4d4703951a9",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/mypy.ini",
+      "sha256": "4eb0d2149018d2ff7dc47c322d55cda603eb50578f1b2e6b55cf616b9ec85273",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/pyproject.toml",
+      "sha256": "19242bc3b401ca40e2f521bfe09fe56e873d85acd9e3e41cf03490f5253c8cb8",
+      "disposition": "metadata updated"
+    },
+    {
+      "source": "packages/twindex-core/scripts/preflight.sh",
+      "sha256": "2617624904225f7e1258cb668e6f1e2413b20a5a5c16a0b36e78ae40e9b69ea3",
+      "disposition": "verification script replaced"
+    },
+    {
+      "source": "packages/twindex-core/src/twindex_core/__init__.py",
+      "sha256": "36ccd9f69d3aad808afb042835023c96134c5a9db46149e172aae440d0c913d9",
+      "disposition": "Framework-only public description; no API or runtime change"
+    },
+    {
+      "source": "packages/twindex-core/src/twindex_core/conversations.py",
+      "sha256": "6e357f9afd19dde9ed31dc32fe8fd5b80bb144c37559bf93924670f1758ee4e1",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/src/twindex_core/docx_adapter.py",
+      "sha256": "61d201cc74b9f2f1edb69d5303c267c4d4d0737b3580f54b770ef1218e8c2ea6",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/src/twindex_core/engine.py",
+      "sha256": "ab3516f93d7b77045c39674edea232b72e76b7efa9694812bcc3d5b26f9f6d89",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/src/twindex_core/models.py",
+      "sha256": "7cba784aaec8cb395f0bc2acf660511cf25d850838641d1b8b32c4a7b86bbcc9",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/src/twindex_core/provider.py",
+      "sha256": "134c61b22540151f477f8a6ddbcbff0097e9c42b145ecdda77d040ce4fdc42fb",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/src/twindex_core/semantic.py",
+      "sha256": "f3d40d55c8a2ab7e0043c72fe9712fd809405e4bdd96ef3927b983d080f8707f",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/src/twindex_core/source_adapters.py",
+      "sha256": "db1b48ce556973d13dc952e992bae113111a1f6606f09e3e2b9e6ac50d8a3b46",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/src/twindex_core/source_io.py",
+      "sha256": "cb89d6eb8b1ef4d5f9d7d58b52ffbfe9ceb55161754112980b0826c34ede79bf",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/src/twindex_core/sources.py",
+      "sha256": "fc2ea2dab1cd7927ceeef515672dfd5c8206cc047d2cddca744aa00f694f042b",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/src/twindex_core/vault.py",
+      "sha256": "6d74b4d73b6c58463d1111778edacc5dc114034bfb2495da95037dead68bbb36",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/tests/test_conversation_proposals.py",
+      "sha256": "0616178088b66ff31dd64f8bd0224fa5886cd9384787a862c3b6fd188f9f041b",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/tests/test_end_to_end_formats.py",
+      "sha256": "139110aca7b7b1857871450b6d3315a6de376907feb46815835d9189125ba4f8",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/tests/test_engine.py",
+      "sha256": "57df757028c7aec996358badaf234af9ef2e1ad023528dcb8d04f1ea4cce93e9",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/tests/test_properties.py",
+      "sha256": "7bd74935c06076d9b296e2688be983d2c9958753ce71537107001f64515f73bb",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/tests/test_provider.py",
+      "sha256": "4c4e6ac97df06cab5b3954e628687f8f87118ec58444ec673db2d5da6e070069",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/tests/test_provider_diagnostics.py",
+      "sha256": "5e1302ea4a8a5cd88e86014b92ee13d21c894b9bef0e9b426f1db02d71006844",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/tests/test_semantic.py",
+      "sha256": "e5f5195c40ca7c7b3b166b5ac91eb9917b2790d95b91477d53965f7f7e1b42b2",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/tests/test_source_adapters.py",
+      "sha256": "89a30c5123d7b95c5ed1abf493546b2cd693a22f877dd9072c7c1f136368b4ee",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/tests/test_source_lifecycle.py",
+      "sha256": "07557817e702c2ee8dd07b8e1e50bb7fbdc76b55b199dfcf3aa8e6210b49847c",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/tests/test_sources.py",
+      "sha256": "8583c53b3bdbd16ad004c9d5b911c300777090390ddd1f46962ebee9498cc560",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/tests/test_vault.py",
+      "sha256": "4398ed3963f7dafec9411639f04b783dffda311eaa2b5a43fbc1cfa6e5795313",
+      "disposition": "copied unchanged"
+    },
+    {
+      "source": "packages/twindex-core/.gitignore",
+      "sha256": "fb9e492a501df91690ae5fbaf75d7e9ccaae620ec76a932933f19066d1d70a09",
+      "disposition": "excluded",
+      "reason": "Per-package ignore rules consolidated into the standalone root .gitignore",
+      "replacement": ".gitignore"
+    },
+    {
+      "source": "packages/twindex-cli/.gitignore",
+      "sha256": "fb9e492a501df91690ae5fbaf75d7e9ccaae620ec76a932933f19066d1d70a09",
+      "disposition": "excluded",
+      "reason": "Per-package ignore rules consolidated into the standalone root .gitignore",
+      "replacement": ".gitignore"
+    }
+  ],
+  "excluded": [
+    "user vaults, dialogues, diagnostics and secrets",
+    "virtual environments, caches, egg-info, build artifacts"
+  ]
+}
